@@ -1,0 +1,87 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: youtube-speed-load\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2012-10-05 10:50+0100\n"
+"POT-Revision-Date: Sat May 14 2016 00:08:53 GMT+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Alexandr <alexufo@mail.ru>\n"
+"Language-Team: <alexufo@mail.ru>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-SearchPath-0: ."
+
+#: ../ytsl-admin-options.php:5
+msgid "Youtube-speedload require CURL extension"
+msgstr ""
+
+#: ../ytsl-admin-options.php:17
+msgid "Settings"
+msgstr ""
+
+#: ../ytsl-admin-options.php:31
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../ytsl-admin-options.php:56
+msgid "settings saved."
+msgstr ""
+
+#: ../ytsl-admin-options.php:62
+msgid "Youtube SpeedLoad settings"
+msgstr ""
+
+#: ../ytsl-admin-options.php:67
+msgid "Responsive embeds"
+msgstr ""
+
+#: ../ytsl-admin-options.php:72
+msgid "Yes. I want all youtube embeds have 100% width"
+msgstr ""
+
+#: ../ytsl-admin-options.php:78 ../ytsl-admin-options.php:83
+msgid "Clear oembed cache"
+msgstr ""
+
+#: ../ytsl-admin-options.php:95
+msgid "Save Changes"
+msgstr ""
+
+#. Name of the plugin
+msgid "Youtube SpeedLoad"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://serebniti.ru"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Friendly to WordPress.  Just click install and forget! Supports playlists "
+"and picks max thumbs from the server! Youtube SL replace standard wordpress "
+"embed code to thumbs from video what load youtube oembed code by click. Does "
+"not generate dependencies yourself. You can disable this plugin any time of "
+"use. You can do responsive embeds."
+msgstr ""
+
+#. Author of the plugin
+msgid "Alexufo"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://habrahabr.ru/users/alexufo"
+msgstr ""
