@@ -1,0 +1,54 @@
+.ytsl-click_div {
+	cursor: pointer;
+}
+
+.ytsl-click_div:hover .ytsl-play_b {
+    background: url("yt-sl-play.png") no-repeat scroll -101px -13px rgba(0, 0, 0, 0);
+}
+
+.ytsl-wrapper,
+.ytsl-wrapper .ytsl-click_div {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+
+}
+
+.ytsl-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+.ytsl-play_b {
+	background: url("yt-sl-play.png") no-repeat scroll 2px -13px rgba(0, 0, 0, 0);    
+    height: 62px;
+    left: 50%;
+    margin-left: -45px;
+    margin-top: -33px;
+    position: absolute;
+    top: 50%;
+    width: 100px;
+	
+}
+
+.ytsl-title_grad {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABiCAQAAAA7fHH2AAAAQUlEQVQYV22KQQoAIAzDyv7/Et/oVlGZVCfkkIYamsENXESyi8vc0u/PKZ6o8+7fZ0h8ShRYnD+BFKToRJkHFpkM2hZSxuyWpEYAAAAASUVORK5CYII=");
+    background-position: center top;
+	height: 98px;
+}
+
+.ytsl-title_text {
+    color: #eeeeee;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    overflow: hidden;
+    padding: 12px 16px 4px;
+    text-overflow: ellipsis;
+	white-space: nowrap;
+
+}
+

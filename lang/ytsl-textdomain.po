@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: youtube-speed-load\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-05 10:50+0100\n"
+"PO-Revision-Date: Sat May 14 2016 01:28:23 GMT+0300\n"
+"Last-Translator: Alexufo <alexufo@mail.ru>\n"
+"Language-Team: <alexufo@mail.ru>\n"
+"Language: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: ru_RU"
+
+#: ../ytsl-admin-options.php:17
+msgid "Settings"
+msgstr ""
+
+#. Name of the plugin
+msgid "Youtube SpeedLoad"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://serebniti.ru"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Friendly to WordPress.  Just click install and forget! Supports playlists "
+"and picks max thumbs from the server! Youtube SL replace standard wordpress "
+"embed code to thumbs from video what load youtube oembed code by click. Does "
+"not generate dependencies yourself. You can disable this plugin any time of "
+"use. You can do responsive embeds."
+msgstr ""
+
+#. Author of the plugin
+msgid "Alexufo"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://habrahabr.ru/users/alexufo"
+msgstr ""
+
+#: ../ytsl-admin-options.php:5
+msgid "Youtube-speedload require CURL extension"
+msgstr "Youtube-speedload требует расширения CURL"
+
+#: ../ytsl-admin-options.php:31
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас нет прав для редактирования этой страницы"
+
+#: ../ytsl-admin-options.php:56
+msgid "settings saved."
+msgstr "Настройки сохранены"
+
+#: ../ytsl-admin-options.php:62
+msgid "Youtube SpeedLoad settings"
+msgstr "Настройки Youtube SpeedLoad"
+
+#: ../ytsl-admin-options.php:67
+msgid "Responsive embeds"
+msgstr "Адаптивность"
+
+#: ../ytsl-admin-options.php:72
+msgid "Yes. I want all youtube embeds have 100% width"
+msgstr "Да, хочу адаптивный плеер"
+
+#: ../ytsl-admin-options.php:78 ../ytsl-admin-options.php:83
+msgid "Clear oembed cache"
+msgstr "Очистить oembed кеш"
+
+#: ../ytsl-admin-options.php:95
+msgid "Save Changes"
+msgstr "Сохранить"
