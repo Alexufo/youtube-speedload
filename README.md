@@ -3,4 +3,4 @@ Wordpress plugin. You can replace youtube iframe by thumbinail with play button.
 
 http://wordpress.org/plugins/youtube-speedload/
 
-![youtube cat](/catgithub.png?raw=true "Optional Title")
+![youtube cat](/catgithub.png?raw=true "")
