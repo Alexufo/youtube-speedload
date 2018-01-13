@@ -3,7 +3,7 @@
  * Plugin Name: Youtube SpeedLoad
  * Plugin URI: http://serebniti.ru
  * Description: Friendly to WordPress.  Just click install and forget! Supports playlists and picks max thumbs from the server! Youtube SL replace standard wordpress embed code to thumbs from video what load youtube oembed code by click. Does not generate dependencies yourself. You can disable this plugin any time of use. You can do responsive embeds.
- * Version: 0.6
+ * Version: 0.6.1
  * Text Domain: ytsl-textdomain
  * Domain Path: /lang
  * Author: Alexufo
@@ -20,7 +20,7 @@ function ytsl_load_textdomain() {
 add_action( 'wp_enqueue_scripts', 'ytsl_plugin_styles_sripts' );
 function ytsl_plugin_styles_sripts() {
 	wp_enqueue_style( 'ytsl-textdomain', plugins_url('style.css', __FILE__) );
-	wp_enqueue_script('ytsl-textdomain', plugins_url( 'script.js' , __FILE__ ), array( 'jquery' ));
+	wp_enqueue_script('ytsl-textdomain', plugins_url( 'script.js' , __FILE__ ), array( 'jquery' ), '', true);
 }
 
 if ( !is_admin() ) { 
