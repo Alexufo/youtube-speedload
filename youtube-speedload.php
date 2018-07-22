@@ -38,7 +38,7 @@ function ytsl_oembed_html ($cache, $url, $attr) {
 		$MATCH_CACHE = $match_cache[0];
 	};	
 	
-	//* if ytsl cache is empty we need create it ( video_id, title, picprefix and etc for schema.org ) for youtube videos and playlists
+	//* we need create cache if ytsl  is empty for youtube videos and playlists
 	if (empty($MATCH_CACHE)) {
 		
 		// ignor not youtube cache. I dont use other services. Sorry
