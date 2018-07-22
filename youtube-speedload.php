@@ -3,7 +3,7 @@
  * Plugin Name: Youtube SpeedLoad
  * Plugin URI: http://serebniti.ru
  * Description: Friendly to WordPress.  Just click install and forget! Supports playlists and picks max thumbs from the server! Youtube SL replace standard wordpress embed code to thumbs from video what load youtube oembed code by click. Does not generate dependencies yourself. You can disable this plugin any time of use. You can do responsive embeds.
- * Version: 0.6.2
+ * Version: 0.6.3
  * Text Domain: ytsl-textdomain
  * Domain Path: /lang
  * Author: Alexufo
@@ -97,7 +97,7 @@ function ytsl_oembed_html ($cache, $url, $attr) {
 			return $cache;
 		}
 		
-		// \U0001f534 with big U breakes json_decode
+		// \U0001f534 breakes json_decode with big U 
 		$data = str_replace("\\U",'\\u', $data);	
 		$json =  json_decode($data,JSON_UNESCAPED_SLASHES);
 
@@ -147,23 +147,17 @@ function ytsl_oembed_html ($cache, $url, $attr) {
 
 	$thumb_url  = "https://i.ytimg.com/vi/{$json['video_id']}/hqdefault.jpg";
 	
+	$fixed      = "height:{$video_height[1]}px;width:{$video_width[1]}px;";
+	$wrap_start;
+	$wrap_end;
+
 	if(get_option('ytsl-responive') == 'on') {
 		$fixed      = '';
 		$wrap_start = '<div class="ytsl-wrapper">';
 		$wrap_end   = '</div>';
-	} else {
-		$fixed      = "height:{$video_height[1]}px;width:{$video_width[1]}px;";
-		$wrap_start = '';
-		$wrap_end   = '';
 	}
 
-	$html = "$wrap_start<div class=\"ytsl-click_div\" data-iframe=\"$ytsl\" style=\"$fixed position:relative;background: url('$thumb_url') no-repeat scroll center center / cover\" >
-				<div class=\"ytsl-title_grad\">
-					<div class=\"ytsl-title_text\">{$json['title']}</div>
-				</div>
-				<img src=\"$thumb_url\" style=\"display: none\" alt=\"{$json['title']}\">
-				<div class=\"ytsl-play_b\"></div>
-				</div>$wrap_end";
+	$html = $wrap_start . "<div class='ytsl-click_div' data-iframe='$ytsl' style='$fixed position:relative;background: url($thumb_url) no-repeat scroll center center / cover' ><div class='ytsl-title_grad'><div class='ytsl-title_text'>{$json['title']}</div></div><div class='ytsl-play_b'></div></div>" . $wrap_end;
 
 	return $html;
 			
